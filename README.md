@@ -24,6 +24,7 @@ Manual complaint categorization is time-consuming. This project automates the pr
 - Tuned Random Forest using `RandomizedSearchCV` (e.g., `n_estimators`, `max_depth`).
 
 ### 4. Evaluation
+- NOTE: Results are based on a subset of the first 500 rows of the dataset due to computational constraints.
 - **Best Model**: Random Forest
 - **Results**:
   - Test Accuracy: 93.55%
@@ -38,4 +39,4 @@ The Random Forest model achieves 93.55% accuracy, effectively classifying compla
 ## 📦 Future Improvements
 - Address potential class imbalance with undersampling/oversampling.
 - Enhance feature engineering (e.g., sentiment analysis).
-- Deploy model as a web application.
+- Perform more rigorous hyperparameter tuning.
